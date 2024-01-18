@@ -1,0 +1,71 @@
+// Here you can add other styles
+.banner-login-logo {
+    margin-bottom: 6vh;
+}
+
+.banner-login-title-parent {
+    margin-left: 18vh;
+    margin-right: 18vh;
+}
+
+.banner-login-title {
+    font-family: 'Poppins';
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #000;
+}
+
+.banner-login-floor {
+    margin-left: 8vh;
+    margin-right: 8vh;
+}
+
+.banner-login-logo-img {
+    width: min-content;
+}
+
+.login-section {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+}
+
+.register-paragraph {
+    color: #92E3A9;
+
+    &:hover {
+        cursor: pointer;
+        color: #74b486;
+    }
+}
+
+.custom-row-banner {
+    padding-left: 100px;
+}
+
+.button-login {
+    color: #fff;
+    background-color: #92E3A9;
+    border-color: #92E3A9;
+
+    &:hover {
+        background-color: #7ec793;
+        border-color: #7ec793;
+    }
+}
+
+.title-login {
+    color: #92E3A9;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+// tablet responsive
+@media (max-width: 834px) {
+    .custom-row-banner {
+        padding-left: 0;
+    }
+
+    .banner-login-title-parent {
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+}
